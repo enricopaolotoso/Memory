@@ -91,16 +91,16 @@ namespace Memory1
             switch (animationGenerato)
             {
                 case "troll":
-                    nGenptroll = aumentoNumFioreGenerato(nGenptroll);
+                    nGenptroll = aumentoNumAnimGen(nGenptroll);
                     break;
                 case "sax":
-                    nGensax = aumentoNumFioreGenerato(nGensax);
+                    nGensax = aumentoNumAnimGen(nGensax);
                     break;
                 case "pirate":
-                    nGenpirate = aumentoNumFioreGenerato(nGenpirate);
+                    nGenpirate = aumentoNumAnimGen(nGenpirate);
                     break;
                 case "superman":
-                    nGensuperman = aumentoNumFioreGenerato(nGensuperman);
+                    nGensuperman = aumentoNumAnimGen(nGensuperman);
                     break;
             }
             return animationGenerato;
@@ -128,7 +128,7 @@ namespace Memory1
                                 return -1;
                             }
                             break;
-                        case "tiktok":
+                        case "pirate":
                             if (nGenpirate == 3)
                             {
                                 return -1;
@@ -146,7 +146,7 @@ namespace Memory1
             return 1;
         }
         //controlla per tutte le variabili se sono stati sorteggiati più di due volte
-        private int aumentoNumFioreGenerato(int genNum)
+        private int aumentoNumAnimGen(int genNum)
         {
             if (genNum < 3)
             {
@@ -232,7 +232,7 @@ namespace Memory1
             controlloCoppie(ref nCard);
         }
         int card1, card2;
-        private int nGensax;
+      
 
         private void controlloCoppie(ref int nCard)
         {

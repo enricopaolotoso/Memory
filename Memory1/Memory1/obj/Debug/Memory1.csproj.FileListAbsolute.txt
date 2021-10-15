@@ -18,3 +18,13 @@ C:\Users\Studente\Desktop\Memory1\Memory1\obj\Debug\Memory1.csproj.GenerateResou
 C:\Users\Studente\Desktop\Memory1\Memory1\obj\Debug\Memory1.csproj.CoreCompileInputs.cache
 C:\Users\Studente\Desktop\Memory1\Memory1\obj\Debug\Memory1.exe
 C:\Users\Studente\Desktop\Memory1\Memory1\obj\Debug\Memory1.pdb
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\bin\Debug\Memory1.exe.config
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\bin\Debug\Memory1.exe
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\bin\Debug\Memory1.pdb
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.Memory.resources
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.Properties.Resources.resources
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.GenerateResource.cache
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.exe
+C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.pdb

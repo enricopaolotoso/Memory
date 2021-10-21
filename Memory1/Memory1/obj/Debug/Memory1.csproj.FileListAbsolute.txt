@@ -28,3 +28,13 @@ C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.Genera
 C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.CoreCompileInputs.cache
 C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.exe
 C:\Users\Studente\Desktop\memory\Memory1\Memory1\obj\Debug\Memory1.pdb
+D:\4f\memory\Memory1\Memory1\bin\Debug\Memory1.exe.config
+D:\4f\memory\Memory1\Memory1\bin\Debug\Memory1.exe
+D:\4f\memory\Memory1\Memory1\bin\Debug\Memory1.pdb
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.csprojAssemblyReference.cache
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.Memory.resources
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.Properties.Resources.resources
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.GenerateResource.cache
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.csproj.CoreCompileInputs.cache
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.exe
+D:\4f\memory\Memory1\Memory1\obj\Debug\Memory1.pdb

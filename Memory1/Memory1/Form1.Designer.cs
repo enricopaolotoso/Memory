@@ -40,9 +40,10 @@ namespace Memory1
             this.carta8 = new System.Windows.Forms.PictureBox();
             this.restartGame = new System.Windows.Forms.Button();
             this.scrittaMemory = new System.Windows.Forms.Label();
-            this.dNickname = new System.Windows.Forms.TextBox();
             this.nikname1 = new System.Windows.Forms.TextBox();
             this.nikname2 = new System.Windows.Forms.TextBox();
+            this.scrittaWannaPlay = new System.Windows.Forms.Label();
+            this.scrittaInserisciNickname = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carta1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carta2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carta3)).BeginInit();
@@ -157,44 +158,61 @@ namespace Memory1
             // 
             this.scrittaMemory.AutoSize = true;
             this.scrittaMemory.BackColor = System.Drawing.Color.Transparent;
-            this.scrittaMemory.Font = new System.Drawing.Font("MV Boli", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scrittaMemory.ForeColor = System.Drawing.Color.Red;
-            this.scrittaMemory.Location = new System.Drawing.Point(181, 37);
+            this.scrittaMemory.Font = new System.Drawing.Font("Broadway", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scrittaMemory.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.scrittaMemory.Location = new System.Drawing.Point(133, 132);
             this.scrittaMemory.Name = "scrittaMemory";
-            this.scrittaMemory.Size = new System.Drawing.Size(416, 125);
+            this.scrittaMemory.Size = new System.Drawing.Size(533, 122);
             this.scrittaMemory.TabIndex = 10;
             this.scrittaMemory.Text = "Memory";
             // 
-            // dNickname
-            // 
-            this.dNickname.Location = new System.Drawing.Point(302, 193);
-            this.dNickname.Name = "dNickname";
-            this.dNickname.Size = new System.Drawing.Size(179, 20);
-            this.dNickname.TabIndex = 11;
-            this.dNickname.Text = "Inserisci nick name ";
-            // 
             // nikname1
             // 
-            this.nikname1.Location = new System.Drawing.Point(302, 233);
+            this.nikname1.Location = new System.Drawing.Point(304, 318);
             this.nikname1.Name = "nikname1";
             this.nikname1.Size = new System.Drawing.Size(177, 20);
             this.nikname1.TabIndex = 12;
             // 
             // nikname2
             // 
-            this.nikname2.Location = new System.Drawing.Point(304, 269);
+            this.nikname2.Location = new System.Drawing.Point(304, 358);
             this.nikname2.Name = "nikname2";
             this.nikname2.Size = new System.Drawing.Size(177, 20);
             this.nikname2.TabIndex = 14;
+            // 
+            // scrittaWannaPlay
+            // 
+            this.scrittaWannaPlay.AutoSize = true;
+            this.scrittaWannaPlay.BackColor = System.Drawing.Color.Transparent;
+            this.scrittaWannaPlay.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scrittaWannaPlay.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.scrittaWannaPlay.Location = new System.Drawing.Point(226, 113);
+            this.scrittaWannaPlay.Name = "scrittaWannaPlay";
+            this.scrittaWannaPlay.Size = new System.Drawing.Size(332, 55);
+            this.scrittaWannaPlay.TabIndex = 15;
+            this.scrittaWannaPlay.Text = "wanna play";
+            // 
+            // scrittaInserisciNickname
+            // 
+            this.scrittaInserisciNickname.AutoSize = true;
+            this.scrittaInserisciNickname.BackColor = System.Drawing.Color.Transparent;
+            this.scrittaInserisciNickname.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scrittaInserisciNickname.ForeColor = System.Drawing.Color.DarkRed;
+            this.scrittaInserisciNickname.Location = new System.Drawing.Point(327, 298);
+            this.scrittaInserisciNickname.Name = "scrittaInserisciNickname";
+            this.scrittaInserisciNickname.Size = new System.Drawing.Size(140, 17);
+            this.scrittaInserisciNickname.TabIndex = 16;
+            this.scrittaInserisciNickname.Text = "inserisci nickname";
             // 
             // Memory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.scrittaInserisciNickname);
+            this.Controls.Add(this.scrittaWannaPlay);
             this.Controls.Add(this.nikname2);
             this.Controls.Add(this.nikname1);
-            this.Controls.Add(this.dNickname);
             this.Controls.Add(this.scrittaMemory);
             this.Controls.Add(this.restartGame);
             this.Controls.Add(this.carta8);
@@ -234,9 +252,10 @@ namespace Memory1
         private System.Windows.Forms.PictureBox carta8;
         private System.Windows.Forms.Button restartGame;
         private System.Windows.Forms.Label scrittaMemory;
-        private System.Windows.Forms.TextBox dNickname;
         private System.Windows.Forms.TextBox nikname1;
         private System.Windows.Forms.TextBox nikname2;
+        private System.Windows.Forms.Label scrittaWannaPlay;
+        private System.Windows.Forms.Label scrittaInserisciNickname;
     }
 }
 
